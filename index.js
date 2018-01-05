@@ -3,11 +3,11 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var sahip = '293006152692662273';
-var prefix = 'hizmetçi!';
+var prefix = '+';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame("Altanay's | " + " aşkm Altanay ", 'https://www.twitch.tv/turkishtr2', 1);
+  client.user.setGame("Altanay's | " + " +çağır ", 'https://www.twitch.tv/turkishtr2', 1);
 });
 
 client.on('message', msg => {
