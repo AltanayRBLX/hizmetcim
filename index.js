@@ -3,15 +3,14 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var sahip = '293006152692662273';
-var prefix = '+';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame("Altanay | " + " +çağır ", 'https://www.twitch.tv/turkishtr2', 1);
+  client.user.setGame("Altanay | " + " çağır ", 'https://www.twitch.tv/turkishtr2', 1);
 });
 
 client.on('message', msg => {
- if (msg.content.toLowerCase() === prefix + 'çağır') {
+ if (msg.content.toLowerCase() === 'çağır') {
   client.users.get('293006152692662273').send('**Aşkımmm seni** ' + msg.channel + ' **kanalından çağırıyolar.**')
  }
 
