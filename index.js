@@ -7,7 +7,7 @@ var prefix = '+';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame("Altanay's | " + " +çağır ", 'https://www.twitch.tv/turkishtr2', 1);
+  client.user.setGame("Altanay | " + " +çağır ", 'https://www.twitch.tv/turkishtr2', 1);
 });
 
 client.on('message', msg => {
