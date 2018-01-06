@@ -1,4 +1,4 @@
-//Made by Altanay#3606 C 2018
+//Made by Altanay#3606 C 2018 Do not copyright.
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
