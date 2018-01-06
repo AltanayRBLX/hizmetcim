@@ -11,6 +11,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
  if (msg.content.toLowerCase() === 'çağır') {
+ if (!message.author.bot)
  client.users.get('293006152692662273').send('**seni** ' + msg.guild + '  sunucusunun **' + msg.channel + '** yazı kanalından çağırıyorlar.**')
  }
 
