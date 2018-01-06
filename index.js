@@ -11,7 +11,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
  if (msg.content.toLowerCase() === 'çağır') {
-  client.users.get('293006152692662273').send('**Aşkımmm seni** ' + msg.channel + ' **kanalından çağırıyolar.**')
+ client.users.get('293006152692662273').send('**seni** ' + msg.guild + ' **kanalının**' + msg.channel + '**yazı kanalından çağırıyorlar.**')
  }
 
 });
