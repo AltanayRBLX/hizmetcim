@@ -11,12 +11,11 @@ client.on('ready', () => {
 
 client.on('message', msg => {
  if (msg.content.toLowerCase() === 'çağır') {
- if (!message.author.bot)
- client.users.get('293006152692662273').send('**seni** ' + msg.guild + '  sunucusunun **' + msg.channel + '** yazı kanalından çağırıyorlar.**')
+ client.users.get('293006152692662273').send('**seni ** ' + msg.guild + '** sunucusunun **' + msg.channel + '** yazı kanalından**' + msg.author + '**çağırıyor.**')
  }
 
 });
 
-client.login('Mzk4ODk3MjMwOTMwNjQwODk2.DTLEIw.fsoBHxfLmSc3bAeO6W8jn2rwPmM');
+client.login('Mzk4ODk3MjMwOTMwNjQwODk2.DTN4OQ.RB2COYFbciOYl3CCYYX2kOaH6wU');
 
   
