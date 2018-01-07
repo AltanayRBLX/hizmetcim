@@ -6,7 +6,11 @@ var sahip = '293006152692662273';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame("Altanay | " + " çağır ", 'https://www.twitch.tv/turkishtr2', 1);
+  while
+    client.user.setGame("Altanay | " + " çağır ", 'https://www.twitch.tv/turkishtr2', 1);
+    delay (1)
+    client.user.setGame("Altanay | " + " Yerler kirlenmiş.", 'https://www.twitch.tv/turkishtr2', 1);
+    delay (1)
 });
 
 client.on('message', msg => {
